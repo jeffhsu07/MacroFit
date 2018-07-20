@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FDEAAC92102738000010A30 /* MacrosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDEAAC82102738000010A30 /* MacrosModel.swift */; };
 		1FF2EC6020FECBA8001F1F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2EC5F20FECBA8001F1F99 /* AppDelegate.swift */; };
 		1FF2EC6220FECBA8001F1F99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2EC6120FECBA8001F1F99 /* ViewController.swift */; };
 		1FF2EC6520FECBA8001F1F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF2EC6320FECBA8001F1F99 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FDEAAC82102738000010A30 /* MacrosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacrosModel.swift; sourceTree = "<group>"; };
 		1FF2EC5C20FECBA8001F1F99 /* MacroFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacroFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF2EC5F20FECBA8001F1F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FF2EC6120FECBA8001F1F99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		1FF2EC8D20FECBB9001F1F99 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1FDEAAC82102738000010A30 /* MacrosModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF2EC6220FECBA8001F1F99 /* ViewController.swift in Sources */,
+				1FDEAAC92102738000010A30 /* MacrosModel.swift in Sources */,
 				1FF2EC6020FECBA8001F1F99 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
