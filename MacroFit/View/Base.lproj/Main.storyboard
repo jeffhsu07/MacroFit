@@ -29,7 +29,7 @@
         <!--Track-->
         <scene sceneID="C0B-gv-d4j">
             <objects>
-                <viewController id="q2N-jG-s5v" sceneMemberID="viewController">
+                <viewController id="q2N-jG-s5v" customClass="TrackViewController" customModule="MacroFit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WYW-YE-Rx2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
