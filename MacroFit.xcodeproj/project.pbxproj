@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1FDEAAC92102738000010A30 /* MacrosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDEAAC82102738000010A30 /* MacrosModel.swift */; };
+		1FDEAACB21027A2500010A30 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDEAACA21027A2500010A30 /* UserModel.swift */; };
 		1FF2EC6020FECBA8001F1F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2EC5F20FECBA8001F1F99 /* AppDelegate.swift */; };
 		1FF2EC6220FECBA8001F1F99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2EC6120FECBA8001F1F99 /* ViewController.swift */; };
 		1FF2EC6520FECBA8001F1F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF2EC6320FECBA8001F1F99 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		1FDEAAC82102738000010A30 /* MacrosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacrosModel.swift; sourceTree = "<group>"; };
+		1FDEAACA21027A2500010A30 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		1FF2EC5C20FECBA8001F1F99 /* MacroFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacroFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF2EC5F20FECBA8001F1F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FF2EC6120FECBA8001F1F99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				1FDEAAC82102738000010A30 /* MacrosModel.swift */,
+				1FDEAACA21027A2500010A30 /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			files = (
 				1FF2EC6220FECBA8001F1F99 /* ViewController.swift in Sources */,
 				1FDEAAC92102738000010A30 /* MacrosModel.swift in Sources */,
+				1FDEAACB21027A2500010A30 /* UserModel.swift in Sources */,
 				1FF2EC6020FECBA8001F1F99 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
