@@ -101,6 +101,7 @@
 		1FF2EC5E20FECBA8001F1F99 /* MacroFit */ = {
 			isa = PBXGroup;
 			children = (
+				1FF2EC6B20FECBA9001F1F99 /* Info.plist */,
 				1FF2EC9020FECBCC001F1F99 /* Supporting Files */,
 				1FF2EC8F20FECBC6001F1F99 /* Controller */,
 				1FF2EC8E20FECBC1001F1F99 /* View */,
@@ -157,7 +158,6 @@
 		1FF2EC9020FECBCC001F1F99 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1FF2EC6B20FECBA9001F1F99 /* Info.plist */,
 				1FF2EC5F20FECBA8001F1F99 /* AppDelegate.swift */,
 			);
 			path = "Supporting Files";
