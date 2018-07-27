@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="711" y="216"/>
         </scene>
-        <!--Track-->
+        <!--Track View Controller-->
         <scene sceneID="C0B-gv-d4j">
             <objects>
                 <viewController id="q2N-jG-s5v" customClass="TrackViewController" customModule="MacroFit" customModuleProvider="target" sceneMemberID="viewController">
@@ -36,11 +36,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="iZ8-i2-ffX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Track" id="i9V-lw-5ok"/>
+                    <navigationItem key="navigationItem" id="Kdh-3k-eb2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rXX-YR-UqH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="711" y="-449"/>
+            <point key="canvasLocation" x="1648.8" y="-449.32533733133437"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="WV8-cz-MGI">
@@ -52,13 +52,32 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="q2N-jG-s5v" kind="relationship" relationship="viewControllers" id="ZZ5-qi-uZH"/>
+                        <segue destination="6sj-sj-kFt" kind="relationship" relationship="viewControllers" id="ZZ5-qi-uZH"/>
                         <segue destination="fuq-73-icI" kind="relationship" relationship="viewControllers" id="SU9-tC-Rd8"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aRz-HT-cWM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-564" y="-125"/>
+        </scene>
+        <!--Track-->
+        <scene sceneID="49f-9Z-xCm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6sj-sj-kFt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Track" id="i9V-lw-5ok"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XRd-Ng-LoQ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="q2N-jG-s5v" kind="relationship" relationship="rootViewController" id="2Na-CY-Ghd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q1s-Ei-eQm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709.60000000000002" y="-449.32533733133437"/>
         </scene>
     </scenes>
 </document>

@@ -13,6 +13,18 @@ class TrackViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        setupNavigationBarItems()
+    }
+    
+    private func setupNavigationBarItems() {
+        navigationItem.title = "Track"
+        
+        //setup user bar button item
+        let userButton = UIButton(type: .system)
+        
+        userButton.setTitle("User", for: .normal)
+        navigationItem.leftBarButtonItem = UIBarButtonItem(customView: userButton)
+        
     }
 
     override func didReceiveMemoryWarning() {
